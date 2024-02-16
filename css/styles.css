@@ -36,6 +36,9 @@ a:active {
   text-transform: uppercase;
 }
 
+.nav-list .link {
+}
+
 .section-banner {
   background-color: #2e2f42;
 }
