@@ -9,12 +9,29 @@ body {
   letter-spacing: 2%;
 }
 
+/* a,
+ul,
+.address {
+  display: inline-block;
+} */
+
+header a .company-logo,
+header nav,
+header address {
+  display: inline-block;
+}
+
 h1,
 h2 {
   font-weight: 700;
 }
 h1 {
   color: white;
+  font-size: 56px;
+  margin: 0;
+  padding-bottom: 48px;
+  letter-spacing: 2%;
+  line-height: 60px;
 }
 
 h3 {
@@ -36,9 +53,38 @@ a:active {
   text-transform: uppercase;
 }
 
-.nav-list .link {
+.company-logo span {
+  color: #4d5ae5;
+}
+
+li {
+  display: inline-block;
 }
 
 .section-banner {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+.banner-content {
+  text-align: center;
+  padding: 188px 472px 188px 472px;
+}
+.banner-button {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  font-weight: 500;
+  color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  /* display: flex; */
+  /* align-items: flex-start; */
+  /* justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px; */
 }
