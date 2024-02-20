@@ -47,6 +47,7 @@ a:visited,
 a:hover,
 a:active {
   text-decoration: none;
+  color: black;
 }
 
 .company-logo {
@@ -61,15 +62,14 @@ li {
   display: inline-block;
 }
 
-.section-banner {
+.section-banner .container {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
-}
-.banner-content {
   text-align: center;
   padding: 188px 472px 188px 472px;
 }
+
 .banner-button {
   font-size: 16px;
   line-height: 24px;
@@ -82,4 +82,15 @@ li {
   padding: 16px 32px;
   width: 169px;
   height: 56px;
+}
+
+/* SECTION TEAM */
+
+.section-team {
+  background-color: #f4f4fd;
+}
+
+/* SECTION FOOTER */
+.section-footer {
+  background-color: #2e2f42;
 }
