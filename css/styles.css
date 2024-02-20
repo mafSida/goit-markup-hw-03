@@ -135,3 +135,12 @@ a {
 .section-footer {
   background-color: #2e2f42;
 }
+
+.section-footer .studio-part {
+  color: #ffffff;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
