@@ -107,7 +107,7 @@ a {
   letter-spacing: 0.02em;
 }
 
-.feature-description {
+.item-description {
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -116,6 +116,10 @@ a {
 
 .section-team {
   background-color: #f4f4fd;
+}
+
+.member-item {
+  background-color: #ffffff;
 }
 
 .section-header {
