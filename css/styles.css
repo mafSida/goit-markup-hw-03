@@ -77,7 +77,7 @@ a {
 
 .banner-header {
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -90,9 +90,20 @@ a {
   font-weight: 500;
   color: #fff;
   background: #4d5ae5;
+  cursor: pointer;
+}
+
+.banner-button:hover,
+.banner-button:focus {
+  background-color: #404bbf;
 }
 
 /* SECTION FEATURES */
+
+.feature-header {
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 
 /* SECTION TEAM */
 
