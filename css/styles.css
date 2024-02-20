@@ -105,6 +105,11 @@ a {
   color: #2e2f42;
 }
 
+.feature-description {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 /* SECTION TEAM */
 
 .section-team {
