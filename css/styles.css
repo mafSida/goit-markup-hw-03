@@ -100,7 +100,7 @@ a {
 
 /* SECTION FEATURES */
 
-.feature-header {
+.item-header {
   color: #2e2f42;
   font-size: 20px;
   line-height: 1.2;
@@ -116,6 +116,15 @@ a {
 
 .section-team {
   background-color: #f4f4fd;
+}
+
+.section-header {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
 }
 
 /* SECTION FOOTER */
