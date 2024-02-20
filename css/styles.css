@@ -73,6 +73,9 @@ a {
 
 .section-banner {
   background-color: #2e2f42;
+}
+
+.banner-header {
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
@@ -83,11 +86,13 @@ a {
 .banner-button {
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   font-weight: 500;
   color: #fff;
   background: #4d5ae5;
 }
+
+/* SECTION FEATURES */
 
 /* SECTION TEAM */
 
