@@ -29,12 +29,8 @@ ul {
   list-style-type: none;
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
+a {
   text-decoration: none;
-  color: black;
 }
 
 /* SECTION HEADER */
@@ -45,7 +41,7 @@ a:active {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -53,6 +49,31 @@ a:active {
 
 .studio-part {
   color: #2e2f42;
+}
+
+.nav-list .link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address .link {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: #404bbf;
 }
 
 /* SECTION BANNER */
