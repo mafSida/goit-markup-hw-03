@@ -147,6 +147,11 @@ img {
 
 /* SECTION FEATURES */
 
+.section-feature {
+  padding: 120px 0;
+  gap: 24px;
+}
+
 .visually-hidden {
   visibility: hidden;
 }
@@ -161,6 +166,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-weight: 500;
+  margin-bottom: 8px;
 }
 
 .item-description {
@@ -203,12 +209,13 @@ img {
 /* SECTION PORTFOLIO */
 
 .section-portfolio {
-  padding: 120px o;
+  padding: 120px 0;
 }
 
 .portfolio-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  column-gap: 24px;
 }
 
 /* SECTION FOOTER */
