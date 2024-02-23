@@ -193,6 +193,12 @@ img {
 /* SECTION FOOTER */
 .section-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.company-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .section-footer .studio-part {
