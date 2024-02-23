@@ -139,6 +139,14 @@ img {
 
 /* SECTION FEATURES */
 
+.visually-hidden {
+  visibility: hidden;
+}
+
+.feature-list {
+  display: flex;
+}
+
 .item-header {
   color: #2e2f42;
   font-size: 20px;
@@ -158,6 +166,10 @@ img {
   background-color: #f4f4fd;
 }
 
+.member-list {
+  display: flex;
+}
+
 .member-item {
   background-color: #ffffff;
 }
@@ -170,6 +182,12 @@ img {
   text-align: center;
   color: #2e2f42;
   font-weight: 700;
+}
+
+/* SECTION PORTFOLIO */
+
+.portfolio-list {
+  display: flex;
 }
 
 /* SECTION FOOTER */
