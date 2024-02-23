@@ -172,14 +172,21 @@ img {
 
 .section-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .member-list {
   display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .member-item {
   background-color: #ffffff;
+}
+
+.card-content {
+  padding: 36px;
 }
 
 .section-header {
@@ -190,12 +197,18 @@ img {
   text-align: center;
   color: #2e2f42;
   font-weight: 700;
+  margin-bottom: 72px;
 }
 
 /* SECTION PORTFOLIO */
 
+.section-portfolio {
+  padding: 120px o;
+}
+
 .portfolio-list {
   display: flex;
+  gap: 24px;
 }
 
 /* SECTION FOOTER */
