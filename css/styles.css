@@ -114,6 +114,10 @@ img {
   background-color: #2e2f42;
 }
 
+.section-banner .container {
+  padding: 188px 0;
+}
+
 .banner-header {
   font-size: 56px;
   line-height: 1.07;
@@ -121,6 +125,7 @@ img {
   text-align: center;
   color: #fff;
   font-weight: 700;
+  max-width: 496px;
 }
 
 .banner-button {
@@ -131,6 +136,11 @@ img {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .banner-button:hover,
