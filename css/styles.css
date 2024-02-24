@@ -183,11 +183,13 @@ img {
   font-weight: 500;
   margin-bottom: 8px;
   padding: 32px 0;
+  text-align: center;
 }
 
 .item-description {
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 /* SECTION TEAM */
@@ -209,7 +211,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.card-content {
+.member-content {
   padding: 32px 0;
 }
 
