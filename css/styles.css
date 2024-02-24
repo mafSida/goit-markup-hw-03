@@ -218,6 +218,12 @@ img {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
+  row-gap: 48px;
+}
+
+.card-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 /* SECTION FOOTER */
