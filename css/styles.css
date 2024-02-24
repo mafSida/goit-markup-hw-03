@@ -155,10 +155,21 @@ img {
 
 .visually-hidden {
   visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 }
 
 .feature-list {
   display: flex;
+  gap: 24px;
+}
+
+.feature-list .item {
+  width: calc((100% - 72px) / 4);
 }
 
 .item-header {
@@ -191,10 +202,13 @@ img {
 
 .member-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .card-content {
   padding: 36px;
+  padding: 32px 0;
 }
 
 .section-header {
@@ -206,6 +220,7 @@ img {
   color: #2e2f42;
   font-weight: 700;
   margin-bottom: 72px;
+  text-align: center;
 }
 
 /* SECTION PORTFOLIO */
