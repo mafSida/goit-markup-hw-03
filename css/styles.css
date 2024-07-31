@@ -133,6 +133,8 @@ address {
 }
 
 .hero-wrap {
+  display: flex;
+  padding: 188px 472px;
 }
 
 .hero-title {
@@ -162,10 +164,13 @@ address {
 /* FEATURES */
 
 .features {
+  padding: 120px 156px;
 }
 .features-title {
 }
 .features-list {
+  display: flex;
+  gap: 24px;
 }
 .features-list-item {
 }
@@ -187,6 +192,7 @@ address {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 156px;
 }
 .team-title {
   font-weight: 700;
@@ -196,14 +202,23 @@ address {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
 }
 .team-list-item {
   background-color: #ffffff;
 }
 .team-list-img {
 }
+
+.team-list-wrap {
+  padding: 32px 16px;
+}
+
 .team-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -211,6 +226,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-list-text {
   font-size: 16px;
@@ -223,6 +239,7 @@ address {
 /* PRODUCT */
 
 .product {
+  padding: 120px 156px;
 }
 .product-title {
   font-weight: 700;
@@ -232,19 +249,25 @@ address {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .product-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 .product-list-item {
 }
 .product-list-img {
 }
+
 .product-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .product-list-text {
   font-size: 16px;
@@ -257,9 +280,12 @@ address {
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-logo {
 }
+
 .footer-logo-studio {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -268,10 +294,12 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
