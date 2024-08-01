@@ -163,6 +163,7 @@ img {
   margin-bottom: 48px;
   max-width: 496px;
 }
+
 .hero-order-btn {
   font-weight: 500;
   font-size: 16px;
@@ -176,7 +177,6 @@ img {
 
 .hero-order-btn:hover,
 .hero-order-btn:focus {
-  border-color: ;
   color: #ffffff;
   background-color: #404bbf;
 }
