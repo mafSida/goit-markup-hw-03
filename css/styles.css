@@ -84,6 +84,8 @@ img {
 
 .header-logo {
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo-studio {
@@ -98,8 +100,6 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-menu-item {
 }
@@ -175,6 +175,7 @@ img {
   background-color: #4d5ae5;
   border-radius: 4px;
   padding: 16px 32px;
+  min-width: 169px;
 }
 
 .hero-order-btn:hover,
@@ -232,12 +233,13 @@ img {
 .team-list-item {
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-list-img {
 }
 
 .team-list-wrap {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-list-title {
@@ -282,12 +284,9 @@ img {
 }
 
 .product-list-wrap {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  border-width: 0 1px 1px 1px;
-  border-style: solid;
-  border-color: #e7e9fc;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .product-list-title {
@@ -313,6 +312,8 @@ img {
   padding-bottom: 100px;
 }
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-studio {
@@ -330,5 +331,4 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-top: 16px;
 }
