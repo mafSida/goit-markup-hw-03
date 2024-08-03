@@ -108,6 +108,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: inline-block;
 }
 
 .header-menu-link:hover {
@@ -124,7 +126,6 @@ img {
 .header-address-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-address-item {
 }
