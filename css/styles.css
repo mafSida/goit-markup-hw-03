@@ -148,7 +148,7 @@ img {
   padding-bottom: 188px;
 }
 
-.hero-wrap {
+.hero .container {
   display: flex;
   flex-direction: column;
   align-items: center;
