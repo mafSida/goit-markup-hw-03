@@ -66,8 +66,8 @@ img {
 /* HEADER */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -80,9 +80,10 @@ img {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  justify-content: space-between;
 }
+
 .header-logo {
+  margin-right: 76px;
 }
 
 .header-logo-studio {
@@ -97,6 +98,8 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-menu-item {
 }
@@ -118,7 +121,6 @@ img {
 
 .header-address {
   font-style: normal;
-  margin-left: 332px;
 }
 .header-address-list {
   display: flex;
